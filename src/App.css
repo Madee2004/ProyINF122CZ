@@ -1,4 +1,5 @@
 .App {
+  background-color: #453D4C;
   text-align: center;
 }
 
@@ -32,7 +33,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+section {
+  color: antiquewhite;
+  background: rgb(192, 181, 201);
+  background: radial-gradient(circle, rgba(192, 181, 201, 1) 0%, rgba(102, 96, 107, 1) 35%, rgba(37, 27, 45, 1) 100%);
+  height: auto;
+}
+
+.navBg {
+  background-color: rgb(127, 127, 170);
+}
+
+img {
+  width: auto;
+  height: auto;
 }
